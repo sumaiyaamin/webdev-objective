@@ -50,6 +50,62 @@ header .btn {
   background-image: url(../assets/Hero-bg.png);
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
+
+#hero .hero-content{
+  width: 888px;
+
+}
+#hero .hero-content .title{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 36px;
+font-weight: 700;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#hero .hero-content .subtitle{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 30px;
+
+}
+
+  #hero .hero-content .btn {
+    padding: 17px 14px 17px 14px;
+  
+    text-decoration: none;
+    border-radius: 8px;
+
+background: rgb(13, 19, 33);
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+  }
+
+  .btn-container{
+   text-align: center;
+  }
+
+  #hero .hero-content .icon{
+    margin-left: 350px;
+  }
+
+
   
